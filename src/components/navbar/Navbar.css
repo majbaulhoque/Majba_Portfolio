@@ -1,0 +1,36 @@
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1336px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: rebeccapurple; */
+        height: 100%;
+
+        .title{
+            font-weight: bold;
+        }
+
+    .social{
+        display: flex;
+        gap: 20px;
+    }
+    }
+}
+
+.nav-details{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-details li{
+    margin-right: 8px;
+}
+
+.fixed-image{
+    height: 20px;
+    width: 20px;
+}
