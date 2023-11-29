@@ -1,11 +1,16 @@
+import Sidebar from '../sidebar/Sidebar';
 import './Navbar.css'
+import {motion} from "framer-motion"
 
 const Navbar = () => {
     return (
         <div className='navbar'>
             {/* Sidebar */}
+            <Sidebar></Sidebar>
             <div className="wrapper">
-                <span className='title'>Majba</span>
+                <motion.span className='title' initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}}
+                transition={{duration: 0.5}}
+                >Majba</motion.span>
                 <div>
                     <ul className='nav-details'>
                         <li>Home</li>

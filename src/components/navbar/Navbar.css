@@ -34,3 +34,18 @@
     height: 20px;
     width: 20px;
 }
+
+/* Test css
+
+.course{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box{
+        width: 200px;
+        height:200px;
+        background-color: white;
+    }
+} */
